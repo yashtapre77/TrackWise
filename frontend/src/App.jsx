@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import LandingPage from './pages/LandingPage'
+import Register from './pages/Register'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <LandingPage/>
+     {/* <LandingPage/> */}
+     < Register/>
     </>
   )
 }
